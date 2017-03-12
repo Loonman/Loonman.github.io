@@ -1,3 +1,4 @@
+
 body {
     margin: 0px;
     padding: 0px;
@@ -10,6 +11,7 @@ body {
     height: 400px;
     margin: 0px;
     background-color: #3C3D3A;
+    font-family: 'Segoe UI Light';
     color: #EFEFEF;
 }
 
@@ -19,6 +21,7 @@ body {
     text-align: center;
     padding-left: 0px;
     padding-top: 60px;
+    font-family: 'Segoe UI Light';
 }
 
 .navbar {
@@ -69,6 +72,7 @@ body {
 
 .content {
     position: relative;
+    font-family: 'Segoe UI Light';
     font-size: 100%;
     text-align: center;
     padding-left: 0px;
@@ -93,6 +97,7 @@ body {
     padding: 0px;
     display:inline-block;
     z-index:0;
+    font-family: 'Segoe UI Light';
 }
 
 .info h1 {
@@ -101,3 +106,51 @@ body {
     line-height: normal;
     color: #3C3D3A;
 }
+
+.divider {
+	position: relative;
+	display: inline-block;
+	width: 750px;
+	height: 1px;
+	background-color: #BCBEBF;
+}
+
+.projects {
+    position: relative;
+    width: 600px;
+    background-color: none;
+    padding: 0px;
+    text-align: center;
+    display:inline-block;
+    z-index:0;
+    font-family: 'Segoe UI Light';
+}
+
+.projects h1 {
+    font-size: 130%; 
+    font-weight: 450;
+    line-height: normal;
+    color: #3C3D3A;
+}
+
+* {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 600px;
+        margin: 10px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }

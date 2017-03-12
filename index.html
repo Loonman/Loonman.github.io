@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang=en>
     <head>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <meta charset="UTF-8">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
         <script src="js/index.js"></script>
+        
         <link href='stylesheets/index.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <title>home - Ryan Huard</title>
     </head>
-    <body style ="font-family: Segoe UI Light">
-
+    <body>
         <div id="home" class="head">
             <div class="head_content">
                 <div>
@@ -34,16 +37,43 @@
                     <p>I'm currently in my fourth year pursuing an undergraduate degree at the University of Alberta in Computer Engineering Nanoscale Systems Design.</p>
                 </div>
             </p>
-        </div>
-        <div id = "test">
-            <p>Oh Hello! I didn't notice you scrolling there!</p>
+            <div class="divider"></div>
+            <div id="projects"><h1>Projects</h1></div>
+                <div class="projects slider">
+                    <div>
+                        <a href="https://github.com/Cardinal-HackED2017">
+                            <h1>Cardinal</h1>
+                        </a>
+                        <p> Cardinal is a hackathon project made for hackED 2017. Cardinal is designed to let you quickly schedule events with your friends
+                            without needing to share your entire calendar with them.
+                        </p>
+                    </div>
+
+                    <div>
+                        <a href="https://github.com/Loonman/oreOS">
+                            <h1>oreOS</h1>
+                        </a>
+                        <p> oreOs is a work in progress hobbyist x86 operating system inspired by the <a href="http://littleosbook.github.io/">little os book.</a></p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Loonman/strife">
+                            <h1>Strife</h1>
+                        </a>
+                        <p> Strife is a Universal Windows Platform app to bring the popular messaging platform Discord to windows phone.</p>
+                    </div>
+                </div>
         </div>
 
         <div id = "navbar" class="navbar">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
                 </ul>
-                
         </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="js/slick_carousel.js"></script>
+    </body>
 </html>
