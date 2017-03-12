@@ -15,10 +15,10 @@ body {
 
 .head_content {
     position: relative;
-    font-size: 200%;
+    font-size: 175%;
     text-align: center;
     padding-left: 0px;
-    padding-top: 75px;
+    padding-top: 60px;
 }
 
 .navbar {
@@ -50,4 +50,52 @@ body {
 }
 .navbar li {
     display:inline-block;
+}
+
+.profile_image {
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    vertical-align: bottom;
+}
+
+.link_icon {
+    background-color: #3C3D3A;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+
+
+.content {
+    position: relative;
+    font-size: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 100px;
+    padding-bottom:0px;
+}
+
+.content h1 {
+    position: relative;
+    font-size: 175%;
+    font-family: 'Segoe UI Light';
+    color: #9565C5;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.info {
+    position: relative;
+    width: 600px;
+    background-color: none;
+    padding: 0px;
+    display:inline-block;
+    z-index:0;
+}
+
+.info h1 {
+    font-size: 130%; 
+    font-weight: 450;
+    color: #3C3D3A;
 }
