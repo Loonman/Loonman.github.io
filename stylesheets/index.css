@@ -80,6 +80,7 @@ body {
     position: relative;
     font-size: 200%;
     font-family: 'Segoe UI Light';
+    line-height: 10px;
     color: #9565C5;
     text-align: center;
     padding-left: 0px;
@@ -97,5 +98,6 @@ body {
 .info h1 {
     font-size: 130%; 
     font-weight: 450;
+    line-height: normal;
     color: #3C3D3A;
 }
