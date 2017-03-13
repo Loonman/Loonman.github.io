@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 95%;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
 
 body {
     margin: 0px;
@@ -11,17 +24,17 @@ body {
     height: 400px;
     margin: 0px;
     background-color: #3C3D3A;
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans Light';
     color: #EFEFEF;
 }
 
 .head_content {
     position: relative;
-    font-size: 175%;
+    font-size: 165%;
     text-align: center;
     padding-left: 0px;
     padding-top: 60px;
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans Light';
 }
 
 .navbar {
@@ -38,7 +51,8 @@ body {
 .navbar a {
     color: black;
     text-decoration: none;
-    font-family: 'Segoe UI';
+    font-family: 'Open Sans';
+    font-size: 95%;
     display: block;
     text-align: center;
     width: 80px;
@@ -72,8 +86,8 @@ body {
 
 .content {
     position: relative;
-    font-family: 'Segoe UI Light';
-    font-size: 100%;
+    font-family: 'Open Sans Light';
+    font-size: 95%;
     text-align: center;
     padding-left: 0px;
     padding-top: 80px;
@@ -83,7 +97,7 @@ body {
 .content h1 {
     position: relative;
     font-size: 200%;
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans Light';
     line-height: 10px;
     color: #9565C5;
     text-align: center;
@@ -97,7 +111,7 @@ body {
     padding: 0px;
     display:inline-block;
     z-index:0;
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans Light';
 }
 
 .info h1 {
@@ -123,7 +137,7 @@ body {
     text-align: center;
     display:inline-block;
     z-index:0;
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans Light';
 }
 
 .projects h1 {
@@ -139,7 +153,7 @@ body {
     height: 50px;
     margin: 0px;
     background-color: #3C3D3A;
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans Light';
     color: #EFEFEF;
 }
 
