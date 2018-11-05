@@ -1,0 +1,30 @@
+.recipe {
+    position: relative;
+    width: 800px;
+    background-color: none;
+    padding: 0px;
+    display:inline-block;
+    z-index:0;
+    font-family: 'Open Sans Light';
+}
+
+.recipe p {
+    text-align: left;
+}
+
+.recipe h2 {
+    font-family: 'Open Sans';
+    font-size: 130%; 
+    font-weight: 450;
+    line-height: normal;
+    color: #3C3D3A;
+    text-align: left;
+}
+
+.ingredients {
+    text-align: left;
+}
+
+.recipe_image {
+
+}

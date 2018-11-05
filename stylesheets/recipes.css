@@ -1,0 +1,11 @@
+.recipes-list {
+    text-align: left;
+}
+
+.recipes-list a {
+    font-size: 150%; 
+    font-weight: 450;
+    line-height: normal;
+    color: #3C3D3A;
+}
+

@@ -12,10 +12,16 @@
   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     padding: 0px;
     border: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .head {
@@ -92,6 +98,7 @@ body {
     padding-left: 0px;
     padding-top: 80px;
     padding-bottom:0px;
+    flex: 1;
 }
 
 .content h1 {
